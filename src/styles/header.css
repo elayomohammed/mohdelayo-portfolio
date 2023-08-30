@@ -9,11 +9,11 @@
     width: 70px;
     border: none;
     border-radius: 50%;
+    color: #ffffff;
+    font-size: 34px;
     animation: avatar360 30s linear infinite;
 }
-.img360{
-    animation: avatar360 30s linear infinite;
-}
+
 @keyframes avatar360 {
     from{
         transform: rotate(0deg);

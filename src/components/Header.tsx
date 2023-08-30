@@ -18,7 +18,7 @@ const Header = (): any =>{
     }
     const handleMenuClose = (event: any): any => {
         if(event){
-            setMenuIsClose(!menuIsClose);
+            setMenuIsClose(!menuIsClose);;
             setMenuIsOpen(true);
         }
     }
@@ -27,11 +27,11 @@ const Header = (): any =>{
         <>
         <header id='portfolio-head'>
             <div id='avatar'>
-                <img id='img360' alt='' src={img360} />
+                <h1 id='img360'>MEA</h1>
             </div>
             <div id='menu-btn' >
-                {menuIsOpen? <img id='menu-open' className='img360' alt='' src={menuOpen} onClick={(event) => handleMenuOpen(event)} /> : ''}
-                {menuIsClose? <img id='menu-close' className='img360' alt='' src={menuClose} onClick={(event) => handleMenuClose(event)} /> : ''}
+                {menuIsOpen? <img id='menu-open' alt='' src={menuOpen} onClick={(event) => handleMenuOpen(event)} /> : ''}
+                {menuIsClose? <img id='menu-close' alt='' src={menuClose} onClick={(event) => handleMenuClose(event)} /> : ''}
             </div>
         </header>
         </>

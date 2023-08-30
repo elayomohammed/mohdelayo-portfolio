@@ -3,7 +3,7 @@ require("../styles/contact.css");
 
 const locationIcon: any = require("../assets/imgs/location-icon.png");
 const phoneIcon: any = require("../assets/imgs/phone-icon.png");
-const emailIcon: any = require("../assets/imgs/email-icon.png");
+const emailIcon: any = require("../assets/imgs/email-icon.png");;
 
 const Contact: any = (): any => {
     return(
@@ -18,15 +18,15 @@ const Contact: any = (): any => {
             <div id="address-contact-form">
                 <address id="address">
                     <div id="location">
-                        <img alt="" src={locationIcon} />
+                        <img alt="" className="contact-icon" src={locationIcon} />
                         <p id=""> Abuja, Nigeria</p>
                     </div>
                     <div id="phone">
-                        <a href="tel:+2348093931832"><img alt="" src={phoneIcon} /></a>
+                        <a href="tel:+2348093931832"><img alt="" className="contact-icon" src={phoneIcon} /></a>
                         <p id=""> +2348093931832</p>
                     </div>
                     <div id="email">
-                        <a href="mailto:elayo.mohammed@gmail.com"><img id="s-email" alt="" src={emailIcon} /></a>
+                        <a href="mailto:elayo.mohammed@gmail.com"><img id="s-email" alt="" className="contact-icon" src={emailIcon} /></a>
                         <p id=""> elayo.mohammed@gmail.com</p>
                     </div>
                 </address><br /><br />

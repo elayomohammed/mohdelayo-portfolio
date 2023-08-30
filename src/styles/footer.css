@@ -9,6 +9,18 @@
     margin: 20px;
 }
 
+.social-icon:hover {
+    animation: social-icon 1s infinite linear;
+}
+
+@keyframes social-icon {
+    from{
+        transform: scale(0.95);
+    }to{
+        transform: scale(1.05);
+    }
+}
+
 #social-note, #copyright {
     text-align: center;
 }

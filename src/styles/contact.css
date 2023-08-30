@@ -49,8 +49,30 @@
     left: 40%;
 }
 
-#location {
+.contact-icon:hover {
     cursor: pointer;
+    animation: contact-icon 1s infinite linear;
+}
+
+@keyframes contact-icon {
+    from{
+        transform: scale(0.95);
+    }to{
+        transform: scale(1.05);
+    }
+}
+
+#submit:hover {
+    animation: submit-live 1s infinite linear;
+}
+
+@keyframes submit-live {
+    from {
+        transform: scale(1.02);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 @media screen and (max-width: 615px){
