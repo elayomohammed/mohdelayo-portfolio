@@ -1,0 +1,21 @@
+#footer-section {
+    font-size: 18px;
+    text-align: center;
+}
+
+#social img {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+
+#social-note, #copyright {
+    text-align: center;
+}
+
+@media screen and (min-width: 615px) {
+    #footer-section {
+        width: 60%;
+        margin: auto;
+    }
+}

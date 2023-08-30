@@ -1,0 +1,17 @@
+#project-container {
+    border-left: solid #4a575ab6 2px;
+    padding-left: 10px;
+    border-bottom: solid #4a575ab6 2px;
+    border-radius: 5px;
+}
+
+#project-header {
+    font-size: 40px;
+    text-align: left;
+}
+
+@media screen and (max-width: 615px) {
+    #project-header {
+        text-align: center;
+    }
+}

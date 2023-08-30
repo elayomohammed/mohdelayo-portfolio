@@ -1,0 +1,39 @@
+#background-and-stack {
+    border-left: solid #4a575ab6 2px;
+    padding-left: 10px;
+    border-bottom: solid #4a575ab6 2px;
+    border-radius: 5px;
+}
+
+.bg-stack-title {
+    font-size: 40px;
+}
+
+ol li {
+    text-align: left;
+}
+
+#background-and-stack h1 {
+    text-align: left;
+}
+
+#background {
+    text-align: left;
+}
+
+#lang-span {
+    color: #FF0000;
+}
+#stack-span {
+    color: #FFA500 ;
+}
+
+@media screen and (max-width: 615px) {
+    p {
+        text-align: left;
+    }
+
+    #background-and-stack h1 {
+        text-align: center;
+    }
+}

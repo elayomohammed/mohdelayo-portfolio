@@ -1,0 +1,61 @@
+#project {
+    border-right: solid #4a575ab6 2px;
+    padding: 10px 10px 0px 0px;
+    border-top: solid #4a575ab6 2px;
+    border-radius: 5px;
+}
+
+#project-embed {
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+#project-embed:hover {
+    scale: 1.01;
+}
+
+#project-name-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+}
+
+.logo-icon:hover {
+    transform: scale(1.1);
+}
+
+#project-name {
+    font-size: 21px;
+    margin: 7px auto 0px 0px;
+    padding: 0px auto 0px auto;
+    text-decoration: underline;
+}
+
+#project-info {
+    text-align:justify;
+    font-size: 18px;
+}
+
+#project-stack-span {
+    color: #FFA500    ;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 615px) {
+    #project-embed {
+        height: 200px;
+    }
+}

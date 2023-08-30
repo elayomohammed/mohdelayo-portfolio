@@ -1,0 +1,74 @@
+#catchy-liners {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-right: solid #4a575ab6 2px;
+    padding-right: 10px;
+    border-bottom: solid #4a575ab6 2px;
+    border-radius: 5px;
+}
+
+#catchy-hr {
+    width: 100px;
+    height: 2px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 70px auto 70px auto;
+    transform: rotate(250deg);
+    animation: move-catchy-hr 20s linear infinite; 
+}
+
+@keyframes move-catchy-hr {
+    0%{
+        width: 1px;
+    }
+    10%{
+        width: 20px;
+    }
+    30%{
+        width: 40px;
+    }
+    40%{
+        width: 70px;
+    }
+    50%{
+        width: 100px;
+    }
+    65%{
+        width: 70px;
+    }
+    75%{
+        width: 40px;
+    }
+    85%{
+        width: 20px;
+    }
+    95%{
+        width: 10px;
+    }
+    100%{
+        width: 1px;
+    }
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.catchy-head {
+    font-size: 40px;
+}
+
+#catchy-liners p {
+    text-align: center;
+}
+
+@media screen and (max-width: 615px) {
+    #catchy-liners {
+        width: 90%;
+        margin: auto;
+    }
+}
