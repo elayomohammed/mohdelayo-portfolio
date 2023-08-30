@@ -11,7 +11,7 @@ const Footer:any = ():any => {
     return(
         <footer id="footer-section">
             <p id="social-note">
-                JavaScript/Typescript frontend and backend developer available for work, connection and collaboration!
+                I am vailable for work, connection and collaboration!<br />Lets chat up!!
             </p>
             <div id="social-copyright">
                 <div id="social">
