@@ -40,6 +40,10 @@
     text-decoration: underline;
 }
 
+#project-name:hover {
+    color: #ff0000;
+}
+
 #project-info {
     text-align:justify;
     font-size: 18px;
