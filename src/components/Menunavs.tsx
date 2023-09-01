@@ -19,7 +19,7 @@ const Menunavs:any = ():any => {
                     <li><a href="#contact-section" className="nav-link">Contact Me</a></li>
                     <li><a href="#wel" id="resume" className="nav-link">Download My Resume</a></li>
                 </ul>
-            </div><hr />
+            </div><hr id="menu-hr" />
             <div id="nav-foot">
                 <div>
                     <h1 id="nav-foot-head">
