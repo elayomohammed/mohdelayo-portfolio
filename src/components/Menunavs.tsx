@@ -23,7 +23,7 @@ const Menunavs:any = ():any => {
             <div id="nav-foot">
                 <div>
                     <h1 id="nav-foot-head">
-                        Want to developed an idea?
+                        Want Your Idea Developed?
                     </h1>
                     <p id="nav-paragraph">
                         Lets brainstorm on it.
