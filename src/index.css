@@ -10,6 +10,7 @@ body {
   background: url('./assets/imgs/globe.gif') no-repeat center center fixed;
   background-size: cover;
   color: #C0C0C0;
+  line-height: 28px;
 }
 
 code {

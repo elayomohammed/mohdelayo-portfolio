@@ -1,8 +1,7 @@
-import React, {useState} from "react";
-import '../styles/header.css'
+import React, {useState, useEffect} from "react";
+import '../styles/header.css';
 const menuOpen = require('../assets/imgs/menu-open.png');
 const menuClose = require('../assets/imgs/menu-close.png');
-const img360 = require('../assets/imgs/profile-photo01.jpg')
 
 const Header = (): any =>{
     const [menuIsOpen, setMenuIsOpen] = useState(true);
@@ -10,18 +9,25 @@ const Header = (): any =>{
     //const menuOpenClick = useRef(null);
 
     // handling menu button open and close clicks
-    const handleMenuOpen = (event: any): any => {
-        if(event){
-            setMenuIsOpen(!menuIsOpen);
-            setMenuIsClose(true);
+    let handleMenuOpen:any;
+    let handleMenuClose:any;
+    useEffect(():any => {
+        const navMenu:any = document.getElementById('nav-menu');
+        handleMenuOpen = (event: any): any => {
+            if(event){
+                setMenuIsOpen(!menuIsOpen);
+                navMenu.style.display = 'block';
+                setMenuIsClose(true);
+            }
         }
-    }
-    const handleMenuClose = (event: any): any => {
-        if(event){
-            setMenuIsClose(!menuIsClose);;
-            setMenuIsOpen(true);
+        handleMenuClose = (event: any): any => {
+            if(event){
+                setMenuIsClose(!menuIsClose);
+                navMenu.style.display = 'none';
+                setMenuIsOpen(true);
+            }
         }
-    }
+    },[menuIsOpen, menuIsClose]);
     
     return (
         <>
