@@ -37,7 +37,11 @@ p {
 }
 
 #nav-foot {
-    margin-top: 60px;
+    margin-top: 45px;
+}
+
+#nav-foot-head {
+    line-height: 40px;
 }
 
 #social {
