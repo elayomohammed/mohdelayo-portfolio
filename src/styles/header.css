@@ -2,6 +2,9 @@
     height: 70px;
     width: 70px;
     cursor: pointer;
+    border: solid #4a575ab6 1px;
+    border-radius: 50px;
+    animation: avatar360 30s linear infinite;
 }
 
 #img360{
@@ -11,7 +14,6 @@
     border-radius: 50%;
     color: #ffffff;
     font-size: 34px;
-    animation: avatar360 30s linear infinite;
 }
 
 @keyframes avatar360 {
@@ -27,7 +29,7 @@
     width: 94%;
     position: fixed;
     top: 50px;
-    margin: 0px 3% auto 3%;
+    margin: 0px 3% 110px 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,7 +60,6 @@
     top: 0px;
     left: 0px;
     z-index: 99;
-    margin-bottom: 70px;
 }
 
 #nav-body {
