@@ -4,7 +4,7 @@
     padding: 0px 0px 10px 10px;
     border-bottom: solid #4a575ab6 2px;
     border-radius: 5px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 #profile-name {
@@ -49,7 +49,7 @@
     }
 
     #profile-photo {
-        height:480px;
+        height:500px;
         width: 100%;
     }
 }

@@ -115,11 +115,14 @@ a:visited {
         text-align: left;
         padding-left: 50px;
     }
-
 }
 
 @media screen and (max-width: 615px) {
     #meet-me {
         margin-left: 35px;
+    }
+
+    #nav-paragraph {
+        text-align: center;
     }
 }
