@@ -6,7 +6,6 @@ import Background from './components/Background';
 import ProjectContainer from './components/ProjectContainer';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Menunavs from './components/Menunavs';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
        <ProjectContainer />
        <Contact />
        <Footer />
-       <Menunavs />
       </main>
     </div>
   );
