@@ -1,3 +1,10 @@
+* a {
+    color: #ffffff;
+}
+* a:visited {
+    color: #ffffff;
+}
+
 #avatar {
     height: 70px;
     width: 70px;
