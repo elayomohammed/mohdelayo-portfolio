@@ -3,8 +3,8 @@ require('../styles/project.css');
 const gotoIcon: any = require('../assets/imgs/goto-icon.png');
 const githubLogo: any = require('../assets/imgs/githubLogo.png');
 
-const Project = (prop: any):any => {
-    return(
+const Project = (prop: any): any => {
+    return (
         <div id='project'>
             <a href={prop.data.url}>
                 <embed id='project-embed' title={prop.data.name} src={prop.data.url} />

@@ -6,13 +6,13 @@ const phoneIcon: any = require("../assets/imgs/phone-icon.png");
 const emailIcon: any = require("../assets/imgs/email-icon.png");;
 
 const Contact: any = (): any => {
-    return(
+    return (
         <section id="contact-section">
             <div id="contact-title-note">
                 <h1 id="contact-title">Get in Touch</h1>
                 <p id="contact-note">
-                    Experienced in both frontend and backend JavaScript, I'm here for your projects and collaboration. Let's create together, whether 
-                    UI or server tasks. Connect to chat about ideas. Eager to work with you!
+                    Full-stack developer specializing in modern Web2 and Web3 applications. Ready to collaborate on innovative solutions
+                    that merge intuitive front-end design with robust back-end architecture. Let’s connect and bring your ideas to life.
                 </p>
             </div>
             <div id="address-contact-form">

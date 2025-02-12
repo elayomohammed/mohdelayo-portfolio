@@ -2,21 +2,29 @@ import React from 'react';
 import Project from './Project';
 require('../styles/projectContainer.css');
 
-const ebookshelves:any = {
+type ProjectDetails = {
+    name: string,
+    url: string,
+    github: string,
+    info: string,
+    stack: string,
+}
+
+const ebookshelves: ProjectDetails = {
     name: 'eBookshelves',
     url: 'https://e-bookshelves.vercel.app/index.html',
     github: 'https://github.com/elayomohammed/eBookshelves',
     info: "With eBookshelves, you can easily store, organize, and access your ebooks offline. It user-friendly interface allows you to quickly search, sort, and filter your ebooks to find exactly what you're looking for.",
     stack: 'HTML, CSS JavaScript, IndexedDB, Vercel'
 };
-const malinenergy:any = {
+const malinenergy: ProjectDetails = {
     name: 'Malinenergy',
     url: 'https://malinenergy.com',
     github: 'https://github.com/elayomohammed/malinenergy',
     info: "Malin Energy is a leading indigenous service provider, delivering innovative engineering, procurement, networking, and construction services in Nigeria's energy and oil and gas sector.",
-    stack: 'HTML, CSS JavaScript, Whogohost'
+    stack: 'Node.js, React.js, Whogohost'
 };
-const croudfundingproductpage:any = {
+const croudfundingproductpage: ProjectDetails = {
     name: 'Croud funding product page',
     url: 'https://croudfunding-productpage.vercel.app/',
     github: 'https://github.com/elayomohammed/croudfunding-productpage',
@@ -24,12 +32,30 @@ const croudfundingproductpage:any = {
     stack: 'HTML, CSS JavaScript, Vercel'
 };
 
+const fic: ProjectDetails = {
+    name: 'Foundation for Intentional Community',
+    url: 'https://www.ic.org/',
+    github: '',
+    info: "A resource hub for intentional communities movement.",
+    stack: 'WordPress'
+};
+
+const nairapulse: ProjectDetails = {
+    name: 'Naira Pulse',
+    url: 'https://www.naira-pulse.com',
+    github: 'https://github.com/elayomohammed/website-nairapulse',
+    info: "A Go-To Platform for Accurate, Up-to-Date Exchange Rates",
+    stack: 'Node.js, Next.js, Namecheap'
+};
+
 const ProjectContainer = (): any => {
-    return(
+    return (
         <section id='project-container'>
             <h1 id='project-header'>Projects</h1>
-            <Project data={ebookshelves} />
+            <Project data={fic} />
+            <Project data={nairapulse} />
             <Project data={malinenergy} />
+            <Project data={ebookshelves} />
             <Project data={croudfundingproductpage} />
         </section>
     )
