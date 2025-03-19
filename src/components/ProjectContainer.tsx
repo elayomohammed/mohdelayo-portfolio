@@ -48,10 +48,19 @@ const nairapulse: ProjectDetails = {
     stack: 'Node.js, Next.js, Namecheap'
 };
 
+const shopamish: ProjectDetails = {
+    name: 'Shop Amish',
+    url: 'https://www.shop-amish.com',
+    github: '',
+    info: "An ecommerce platform with specialization in premium lifestyle products that enhance everyday beverage experience.",
+    stack: 'WordPress, WooCommerce'
+}
+
 const ProjectContainer = (): any => {
     return (
         <section id='project-container'>
             <h1 id='project-header'>Projects</h1>
+            <Project data={shopamish} />
             <Project data={fic} />
             <Project data={nairapulse} />
             <Project data={malinenergy} />
