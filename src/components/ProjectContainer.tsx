@@ -56,6 +56,14 @@ const shopamish: ProjectDetails = {
     stack: 'WordPress, WooCommerce'
 }
 
+const sapaDeals: ProjectDetails = {
+    name: 'Sapa Deals',
+    url: 'https://www.sapadeals.com',
+    github: '',
+    info: "A smart, simple, and reliable source for the best tech and gadget deals across Nigeria and beyond. Track discounts, compare offers, and provide clear insights so you can shop with confidence.",
+    stack: 'WordPress'
+}
+
 const ProjectContainer = (): any => {
     return (
         <section id='project-container'>
