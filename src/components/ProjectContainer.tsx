@@ -74,6 +74,7 @@ const ProjectContainer = (): any => {
             <Project data={malinenergy} />
             <Project data={ebookshelves} />
             <Project data={croudfundingproductpage} />
+            <Project data={sapaDeals} />
         </section>
     )
 }
