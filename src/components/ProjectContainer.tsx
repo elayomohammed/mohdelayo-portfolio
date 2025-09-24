@@ -68,13 +68,13 @@ const ProjectContainer = (): any => {
     return (
         <section id='project-container'>
             <h1 id='project-header'>Projects</h1>
-            <Project data={shopamish} />
-            <Project data={fic} />
+            <Project data={sapaDeals} />
             <Project data={nairapulse} />
             <Project data={malinenergy} />
+            <Project data={fic} />
+            <Project data={shopamish} />
             <Project data={ebookshelves} />
             <Project data={croudfundingproductpage} />
-            <Project data={sapaDeals} />
         </section>
     )
 }
