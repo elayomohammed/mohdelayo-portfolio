@@ -31,8 +31,8 @@
     height: 430px;
     width: 35%;
     border: none;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     opacity: 0.9;
 }
 

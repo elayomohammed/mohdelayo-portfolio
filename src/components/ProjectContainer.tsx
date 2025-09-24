@@ -42,7 +42,7 @@ const fic: ProjectDetails = {
 
 const nairapulse: ProjectDetails = {
     name: 'Naira Pulse',
-    url: 'https://www.naira-pulse.com',
+    url: 'https://www.nairapulse.vercel.app',
     github: 'https://github.com/elayomohammed/website-nairapulse',
     info: "A Go-To Platform for Accurate, Up-to-Date Exchange Rates",
     stack: 'Node.js, Next.js, Namecheap'
