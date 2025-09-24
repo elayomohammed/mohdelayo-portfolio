@@ -31,11 +31,12 @@
     height: 430px;
     width: 35%;
     border: none;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     opacity: 0.9;
 }
 
-@media screen and (max-width: 615px){
+@media screen and (max-width: 615px) {
     #intro {
         margin-top: 140px;
     }
@@ -50,14 +51,14 @@
     }
 
     #profile-photo {
-        height:420px;
+        height: 420px;
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 615px) {
     #profile-photo {
-        height:420px;
+        height: 420px;
         width: 45%;
     }
 }
