@@ -1,5 +1,5 @@
 import React from "react";
-const profilePhoto: any = require('../assets/imgs/profile-photo01.jpg');
+const profilePhoto: any = require('../assets/imgs/MohammedElayoAhmed_Photo.jpg');
 require('../styles/introduction.css');
 
 const Introduction = (): any => {

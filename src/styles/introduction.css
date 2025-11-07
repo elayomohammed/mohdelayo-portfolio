@@ -29,16 +29,19 @@
 
 #profile-photo {
     height: 430px;
-    width: 35%;
+    width: auto;
     border: none;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    background-color: #000000;
+    box-shadow: 1px -1px 1px 1px;
     opacity: 0.9;
 }
 
 @media screen and (max-width: 615px) {
     #intro {
         margin-top: 140px;
+        padding: 0px 5px 10px 5px;
     }
 
     #profile-intro {

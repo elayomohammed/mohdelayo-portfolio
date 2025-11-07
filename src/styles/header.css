@@ -1,33 +1,26 @@
 * a {
     color: #ffffff;
 }
+
 * a:visited {
     color: #ffffff;
 }
 
 #avatar {
-    height: 70px;
-    width: 70px;
     cursor: pointer;
     border: solid #4a575ab6 1px;
-    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
     animation: avatar360 30s linear infinite;
 }
 
-#img360{
-    height: 70px;
-    width: 70px;
-    border: none;
-    border-radius: 50%;
-    color: #ffffff;
-    font-size: 34px;
-}
-
 @keyframes avatar360 {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
 }
@@ -118,7 +111,7 @@ a:visited {
         width: 50%;
         margin-left: 50%;
     }
-    
+
     #nav-body {
         margin-top: 96px;
         text-align: left;

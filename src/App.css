@@ -27,10 +27,13 @@ a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 615px){
-  h1, h2 {
+@media screen and (max-width: 615px) {
+
+  h1,
+  h2 {
     text-align: center;
   }
+
   #centered-body {
     width: 90%;
   }

@@ -22,11 +22,11 @@ const Background = (): any => {
                 <h1 className="bg-stack-title">Programming Stack</h1>
                 <ol className='large-p' style={{ listStyle: 'none', marginLeft: '0px', paddingLeft: '0px' }}>
                     <li>
-                        <span id='lang-span'>Languages:</span> Javascript, Typescript, Solidity, HTML5, CSS, SASS.
+                        <span id='lang-span'>Languages:</span> Javascript, Typescript, Solidity, HTML5, CSS.
                     </li>
                     <li>
-                        <span id='stack-span'>Technologies, Tools, & Platforms:</span> React.js, Next.js, Express.js, React Native, Web3-React, Foundryup, Ethers.js, Bootstrap, Firestore, MongoDB,
-                        IndexedDB, Git and GitHub, Trello, GCP, Namecheap, Vercel, Blockchain, Cryptocurrency, WordPress.
+                        <span id='stack-span'>Technologies, Tools, & Platforms:</span> React.js, Next.js, Express.js, React Native, Web3-React, Foundryup, Ethers.js, Tailwind CSS, Firestore, MongoDB,
+                        PostgrSQL, IndexedDB, Git and GitHub, Trello, GCP, Namecheap, Vercel, Blockchain, Cryptocurrency, WordPress.
                     </li>
                 </ol>
             </div>
